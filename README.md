@@ -1,8 +1,6 @@
 # docker
 ### Virtualization vs Containarization
-[[images/virtualizatin_vs_containarization.png|Virtualization vs containarization]]
-
-
+![virtualization vs containarization](https://github.com/marun790/docker/blob/main/images/virtualizatin_vs_containarization.png?raw=true)
 
 ### Commands
 
