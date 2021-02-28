@@ -1,6 +1,6 @@
 # docker
 ### Virtualization vs Containarization
-[[/images/virtualizatin_vs_containarization.png|Virtualization vs containarization]]
+[[images/virtualizatin_vs_containarization.png|Virtualization vs containarization]]
 
 
 
