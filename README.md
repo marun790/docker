@@ -1,8 +1,8 @@
 # docker
 ### Commands
 
-Commends								                                          | Discription
----------------------------------------------------------------------------------------------------
+**Commends**								                                      | **Discription**
+------------------------------------------------------------------|---------------------------------
 docker ps -a								                                      |to list all image
 docker image build . -t arun-employee:0.0.01				              |to build image
 docker image ls							                                      | list all image
