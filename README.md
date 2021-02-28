@@ -7,7 +7,7 @@ k8s install with minikube https://www.howtoforge.com/how-to-install-kubernetes-w
 
  Commends 							        |  Discription 
 ----------------------------------------------------------------------|---------------------------------
-docker ps -a								|to list all image
+docker ps -a								|to list all containers
 docker image build . -t arun-employee:0.0.01				|to build image
 docker image ls							|list all image
 docker rmi arun-employee:0.0.01					|to remove image
