@@ -22,8 +22,10 @@ docker exec -it department bash					                          | loginto containe
 
 
 #### Simple Docker file to build image
+```
 FROM openjdk:8-jdk-alpine 			(alpine)-> smallet process which having minimal future and small size
 ARG JAR_FILE=target/*.jar
 COPY ${JAR_FILE} app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
 EXPOSE 8080
+```
