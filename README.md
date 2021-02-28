@@ -1,4 +1,9 @@
 # docker
+### Virtualization vs Containarization
+[[/images/virtualizatin_vs_containarization.png|Virtualization vs containarization]]
+
+
+
 ### Commands
 
 Commends								| Discription
