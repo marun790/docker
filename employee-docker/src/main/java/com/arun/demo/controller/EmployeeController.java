@@ -2,6 +2,7 @@ package com.arun.demo.controller;
 
 import com.arun.demo.core.EmployeeService;
 import com.arun.demo.model.Employee;
+import com.arun.demo.model.external.Department;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -25,5 +26,12 @@ public class EmployeeController {
 
         return ResponseEntity.ok(employeeService.getAll());
     }
+
+
+    @GetMapping(value = "department")
+    public ResponseEntity<Department> getDepartments() {
+        return ResponseEntity.ok(employeeService.getDepartment());
+    }
+
 
 }
