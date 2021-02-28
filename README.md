@@ -25,14 +25,14 @@ docker exec -it department bash					                          | loginto containe
  docker image build . -t arun-employee:0.0.01	
  
  ```
- '.' -> if we in the same filder and the filename is Dockerfile we can use otherwise have to use -f
- '-t' -> tag name 
+ '.' -> if we in the same filder and the filename is Dockerfile we can use otherwise have to use -f.
+ '-t' -> tag name.
  
 ``` 
 docker run --name arun-emp -p 8080:8080 -d arun-employee:0.0.03
 ```
-'-name'-> name of the process in the container
-'-d' -> will run the process in detached mode otherwise will run like weserver in command prompt, container will stop if we close the command prompt.
+'-name'-> name of the process in the container.
+'-d' -> will run the process in detached mode otherwise will run like weserver in command prompt, container will stop if we close the command prompt..
 
 ```
 docker run --name arun-emp -p 8080:8080 -d arun-employee
