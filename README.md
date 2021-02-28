@@ -18,7 +18,9 @@ curl localhost:8080/employee/all					|to check the service
 docker container rm 02a7fa8dc66e 					|remove/delete container
 docker container prune							|remove all stoped containers
 docker exec -it department bash					| loginto container
-
+docker network create test-nw						| create new network
+docker rm test-nw							| remove network
+docker container run --name dep --network=test-nw -d department	| spin container with the created network
 
 
 #### Comment explanations
@@ -57,5 +59,15 @@ EXPOSE 8080
 
 
 by network configuration we can acchive the process running in same network can be communicate locally
+* Create network using 
+> docker network create test-nw
+* spin the container with the newly created ntwork as same as proxy pass
+> docker container run --name dep --network=test-nw -d department
+* change the uri in employee config as below
+```
+department-uri=http://dept:8082
+
+```
+> docker container run --name emp --network=test-nw -d department
 
 
