@@ -5,7 +5,7 @@
 k8s install with minikube https://www.howtoforge.com/how-to-install-kubernetes-with-minikube-ubuntu-20-04/
 ### Commands
 
- Commends 							        |  Discription 
+ Commends 							        |  Description 
 ----------------------------------------------------------------------|---------------------------------
 docker ps -a								|to list all containers
 docker image build . -t arun-employee:0.0.01				|to build image
