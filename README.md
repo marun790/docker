@@ -16,7 +16,11 @@ k8s install with minikube https://www.howtoforge.com/how-to-install-kubernetes-w
 ### Container
 * layers of immages
 * base immage - linux based OS and application immage will be on top of that
-* 
+
+
+### Docker Compose
+* It is tedius to run differnt containers for a project using command.
+  EX: Nodejs App connecting to mongidb and we have mongo express for db dashboard. in that case we can go with docker compose
 
 ### Commands
 
