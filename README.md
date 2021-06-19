@@ -6,6 +6,18 @@ k8s install with minikube https://www.howtoforge.com/how-to-install-kubernetes-w
 
 * Hypervisor - Vmware
 
+### Benifits
+* there is no hyperviser
+* There is no need to make separate development infra based on OS
+* Can run 2 different version of same application without any conflict
+* Own isolated environment for all application
+* In old way of deployment there is a heigh possibility way of the developer or operations team to make mistake.
+
+### Container
+* layers of immages
+* base immage - linux based OS and application immage will be on top of that
+* 
+
 ### Commands
 
  Commends 							        |  Description 
