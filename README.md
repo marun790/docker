@@ -3,6 +3,9 @@
 ![virtualization vs containarization](https://github.com/marun790/docker/blob/main/images/container_evolution.svg?raw=true)
 
 k8s install with minikube https://www.howtoforge.com/how-to-install-kubernetes-with-minikube-ubuntu-20-04/
+
+* Hypervisor - Vmware
+
 ### Commands
 
  Commends 							        |  Description 
