@@ -21,6 +21,20 @@ k8s install with minikube https://www.howtoforge.com/how-to-install-kubernetes-w
 ### Docker Compose
 * It is tedius to run differnt containers for a project using command.
   EX: Nodejs App connecting to mongidb and we have mongo express for db dashboard. in that case we can go with docker compose
+> docker-compose -f <DOCKER-COMPOSE.yml> up
+> docker-compose -f <DOCKER-COMPOSE.yml> down
+  
+### Docker network
+* docker-compose will maintain a virtual networks, the containers in docker-compose will be communicated through that.
+  Otherwise we have to create a separate network and maintain
+
+### Docker volume:
+* to have a statefull container like mongodb we need docker-volume
+* we will mount the physical directry path as virtual filesystem for container
+
+> docker run -v <NAME>:/var/lib/mysql/data
+
+  
 
 ### Commands
 
@@ -88,5 +102,6 @@ department-uri=http://dept:8082
 
 ```
 > docker container run --name emp --network=test-nw -d department
+
 
 
